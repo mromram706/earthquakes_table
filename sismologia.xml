@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:gml="http://www.opengis.net/gml" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:georss="http://www.georss.org/georss" xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" version="2.0">
+  <channel>
+    <title>GeoRSS Sismología IGN</title>
+    <link>http://www.ign.es/ign/rss</link>
+    <description>Este canal te permite consultar los terremotos ocurridos en España durante los últimos diez días. Esta información está sujeta a modificaciones como consecuencia de la continua revisión del análisis sísmico.</description>
+    <language>es</language>
+    <dc:language>es</dc:language>
+    <item>
+      <title>-Info.terremoto: 05/03/2024 6:02:50</title>
+      <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024enkvi</link>
+      <description>Se ha producido un terremoto de magnitud 2.6 en GOLFO DE CÁDIZ en la fecha 05/03/2024 6:02:50 en la siguiente localización: 36.609,-8.6209</description>
+      <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024enkvi</guid>
+      <geo:lat>36.609</geo:lat>
+      <geo:long>-8.6209</geo:long>
+    </item>
+    <item>
+      <title>-Info.terremoto: 04/03/2024 12:59:52</title>
+      <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024emdbt</link>
+      <description>Se ha producido un terremoto de magnitud 3.7 en AZORES-CABO DE SAN VICENTE en la fecha 04/03/2024 12:59:52 en la siguiente localización: 36.8686,-14.0494</description>
+      <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024emdbt</guid>
+      <geo:lat>36.8686</geo:lat>
+      <geo:long>-14.0494</geo:long>
+    </item>
+    <item>
+      <title>-Info.terremoto: 04/03/2024 9:54:35</title>
+      <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024elwyu</link>
+      <description>Se ha producido un terremoto de magnitud 3.9 en AZORES-CABO DE SAN VICENTE en la fecha 04/03/2024 9:54:35 en la siguiente localización: 37.0904,-14.0052</description>
+      <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024elwyu</guid>
+      <geo:lat>37.0904</geo:lat>
+      <geo:long>-14.0052</geo:long>
+    </item>
+    <item>
+      <title>-Info.terremoto: 03/03/2024 18:33:46</title>
+      <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024eksow</link>
+      <description>Se ha producido un terremoto de magnitud 2.6 en SW MAULEON LICHARRE.FRA en la fecha 03/03/2024 18:33:46 en la siguiente localización: 43.0816,-0.9735</description>
+      <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024eksow</guid>
+      <geo:lat>43.0816</geo:lat>
+      <geo:long>-0.9735</geo:long>
+    </item>
+    <item>
+      <title>-Info.terremoto: 03/03/2024 11:17:20</title>
+      <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024ekeel</link>
+      <description>Se ha producido un terremoto de magnitud 2.6 en W SANTA CRISTINA D ARO.GI en la fecha 03/03/2024 11:17:20 en la siguiente localización: 41.82,2.9523</description>
+      <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024ekeel</guid>
+      <geo:lat>41.82</geo:lat>
+      <geo:long>2.9523</geo:long>
+    </item>
+    <item>
+      <title>-Info.terremoto: 02/03/2024 13:57:09</title>
+      <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024einyf</link>
+      <description>Se ha producido un terremoto de magnitud 3.1 en SE ROMMANI.MAC en la fecha 02/03/2024 13:57:09 en la siguiente localización: 33.3945,-6.1892</description>
+      <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024einyf</guid>
+      <geo:lat>33.3945</geo:lat>
+      <geo:long>-6.1892</geo:long>
+    </item>
+    <item>
+      <title>-Info.terremoto: 01/03/2024 13:12:41</title>
+      <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024egqys</link>
+      <description>Se ha producido un terremoto de magnitud 2.9 en SW CARAVACA DE LA CRUZ.MU en la fecha 01/03/2024 13:12:41 en la siguiente localización: 37.9708,-2.0154</description>
+      <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024egqys</guid>
+      <geo:lat>37.9708</geo:lat>
+      <geo:long>-2.0154</geo:long>
+    </item>
+    <item>
+      <title>-Info.terremoto: 01/03/2024 6:15:37</title>
+      <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024egdey</link>
+      <description>Se ha producido un terremoto de magnitud 2.8 en ATLÁNTICO-CANARIAS en la fecha 01/03/2024 6:15:37 en la siguiente localización: 28.1709,-16.2126</description>
+      <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024egdey</guid>
+      <geo:lat>28.1709</geo:lat>
+      <geo:long>-16.2126</geo:long>
+    </item>
+    <item>
+      <title>-Info.terremoto: 01/03/2024 5:41:01</title>
+      <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024egcbf</link>
+      <description>Se ha producido un terremoto de magnitud 4.3 en ATLÁNTICO-MADEIRA en la fecha 01/03/2024 5:41:01 en la siguiente localización: 32.7056,-17.6754</description>
+      <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024egcbf</guid>
+      <geo:lat>32.7056</geo:lat>
+      <geo:long>-17.6754</geo:long>
+    </item>
+    <item>
+      <title>-Info.terremoto: 01/03/2024 4:29:09</title>
+      <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024efzpa</link>
+      <description>Se ha producido un terremoto de magnitud 2.6 en ALBORÁN NORTE en la fecha 01/03/2024 4:29:09 en la siguiente localización: 36.3359,-3.8311</description>
+      <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024efzpa</guid>
+      <geo:lat>36.3359</geo:lat>
+      <geo:long>-3.8311</geo:long>
+    </item>
+    <item>
+      <title>-Info.terremoto: 01/03/2024 3:40:16</title>
+      <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024efybs</link>
+      <description>Se ha producido un terremoto de magnitud 4.1 en SW BEJAIA.ARG en la fecha 01/03/2024 3:40:16 en la siguiente localización: 36.5718,4.9106</description>
+      <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024efybs</guid>
+      <geo:lat>36.5718</geo:lat>
+      <geo:long>4.9106</geo:long>
+    </item>
+    <item>
+      <title>-Info.terremoto: 29/02/2024 22:49:32</title>
+      <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024efomf</link>
+      <description>Se ha producido un terremoto de magnitud 3.7 en AZORES-CABO DE SAN VICENTE en la fecha 29/02/2024 22:49:32 en la siguiente localización: 37.0628,-13.867</description>
+      <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024efomf</guid>
+      <geo:lat>37.0628</geo:lat>
+      <geo:long>-13.867</geo:long>
+    </item>
+    <item>
+      <title>-Info.terremoto: 29/02/2024 19:31:56</title>
+      <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024efhyi</link>
+      <description>Se ha producido un terremoto de magnitud 2.9 en NW RELIZANE.ARG en la fecha 29/02/2024 19:31:56 en la siguiente localización: 35.7947,0.5327</description>
+      <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024efhyi</guid>
+      <geo:lat>35.7947</geo:lat>
+      <geo:long>0.5327</geo:long>
+    </item>
+    <item>
+      <title>-Info.terremoto: 29/02/2024 7:48:56</title>
+      <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024eektq</link>
+      <description>Se ha producido un terremoto de magnitud 3.0 en NW GUERCIF.MAC en la fecha 29/02/2024 7:48:56 en la siguiente localización: 34.3566,-3.519</description>
+      <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024eektq</guid>
+      <geo:lat>34.3566</geo:lat>
+      <geo:long>-3.519</geo:long>
+    </item>
+    <item>
+      <title>-Info.terremoto: 28/02/2024 14:59:50</title>
+      <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024eddlz</link>
+      <description>Se ha producido un terremoto de magnitud 3.4 en ALBORÁN SUR en la fecha 28/02/2024 14:59:50 en la siguiente localización: 35.332,-3.5194</description>
+      <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024eddlz</guid>
+      <geo:lat>35.332</geo:lat>
+      <geo:long>-3.5194</geo:long>
+    </item>
+    <item>
+      <title>-Info.terremoto: 27/02/2024 7:18:12</title>
+      <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024easso</link>
+      <description>Se ha producido un terremoto de magnitud 3.0 en SW CABO DE SAN VICENTE en la fecha 27/02/2024 7:18:12 en la siguiente localización: 36.6454,-11.1372</description>
+      <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024easso</guid>
+      <geo:lat>36.6454</geo:lat>
+      <geo:long>-11.1372</geo:long>
+    </item>
+    <item>
+      <title>-Info.terremoto: 27/02/2024 6:45:22</title>
+      <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024earqj</link>
+      <description>Se ha producido un terremoto de magnitud 2.7 en ATLÁNTICO-CANARIAS en la fecha 27/02/2024 6:45:22 en la siguiente localización: 27.3019,-16.089</description>
+      <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024earqj</guid>
+      <geo:lat>27.3019</geo:lat>
+      <geo:long>-16.089</geo:long>
+    </item>
+    <item>
+      <title>-Info.terremoto: 26/02/2024 22:06:17</title>
+      <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024eaanc</link>
+      <description>Se ha producido un terremoto de magnitud 3.5 en SW ES BÒRDES.L en la fecha 26/02/2024 22:06:17 en la siguiente localización: 42.6865,0.6962</description>
+      <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024eaanc</guid>
+      <geo:lat>42.6865</geo:lat>
+      <geo:long>0.6962</geo:long>
+    </item>
+    <item>
+      <title>-Info.terremoto: 25/02/2024 21:15:59</title>
+      <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024dydip</link>
+      <description>Se ha producido un terremoto de magnitud 3.3 en ATLÁNTICO-PORTUGAL en la fecha 25/02/2024 21:15:59 en la siguiente localización: 37.908,-9.5715</description>
+      <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024dydip</guid>
+      <geo:lat>37.908</geo:lat>
+      <geo:long>-9.5715</geo:long>
+    </item>
+    <item>
+      <title>-Info.terremoto: 25/02/2024 12:22:06</title>
+      <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024dxlsp</link>
+      <description>Se ha producido un terremoto de magnitud 4.0 en AZORES-CABO DE SAN VICENTE en la fecha 25/02/2024 12:22:06 en la siguiente localización: 36.9959,-13.9396</description>
+      <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024dxlsp</guid>
+      <geo:lat>36.9959</geo:lat>
+      <geo:long>-13.9396</geo:long>
+    </item>
+    <item>
+      <title>-Info.terremoto: 25/02/2024 0:56:57</title>
+      <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024dwpcx</link>
+      <description>Se ha producido un terremoto de magnitud 4.2 en AZORES-CABO DE SAN VICENTE en la fecha 25/02/2024 0:56:57 en la siguiente localización: 37.0162,-14.2722</description>
+      <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024dwpcx</guid>
+      <geo:lat>37.0162</geo:lat>
+      <geo:long>-14.2722</geo:long>
+    </item>
+    <item>
+      <title>-Info.terremoto: 25/02/2024 0:43:10</title>
+      <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024dwoqz</link>
+      <description>Se ha producido un terremoto de magnitud 3.6 en AZORES-CABO DE SAN VICENTE en la fecha 25/02/2024 0:43:10 en la siguiente localización: 34.8585,-12.8673</description>
+      <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024dwoqz</guid>
+      <geo:lat>34.8585</geo:lat>
+      <geo:long>-12.8673</geo:long>
+    </item>
+    <item>
+      <title>-Info.terremoto: 24/02/2024 20:22:17</title>
+      <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024dwgbe</link>
+      <description>Se ha producido un terremoto de magnitud 3.0 en E CERDIDO.C en la fecha 24/02/2024 20:22:17 en la siguiente localización: 43.6047,-7.9292</description>
+      <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024dwgbe</guid>
+      <geo:lat>43.6047</geo:lat>
+      <geo:long>-7.9292</geo:long>
+    </item>
+    <item>
+      <title>-Info.terremoto: 24/02/2024 19:37:07</title>
+      <link>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024dweol</link>
+      <description>Se ha producido un terremoto de magnitud 3.8 en AZORES-CABO DE SAN VICENTE en la fecha 24/02/2024 19:37:07 en la siguiente localización: 37.0027,-14.069</description>
+      <guid>http://www.ign.es/web/ign/portal/sis-catalogo-terremotos/-/catalogo-terremotos/detailTerremoto?evid=es2024dweol</guid>
+      <geo:lat>37.0027</geo:lat>
+      <geo:long>-14.069</geo:long>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Terremotos tabla</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/colreorder/1.5.2/css/colReorder.dataTables.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/colreorder/1.5.2/js/dataTables.colReorder.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container" style="padding: 20px;">
+    <h1>Terremotos en España</h1>
+
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Tabla 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Tabla 2</a>
+        </li>
+    </ul>
+
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <table id="earthquakesTable" class="display" style="width:100%">
+                <thead>
+                <tr>
+                    <th>Ubicación</th>
+                    <th>Magnitud</th>
+                    <th>Fecha</th>
+                    <th>Latitud</th>
+                    <th>Longitud</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <table id="earthquakesTable2" class="display" style="width:100%">
+                <thead>
+                <tr>
+                    <th>Ubicación</th>
+                    <th>Magnitud</th>
+                    <th>Fecha</th>
+                    <th>Latitud</th>
+                    <th>Longitud</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        fetch('server.php')
+            .then(response => response.json())
+            .then(data => {
+                let tableData = data.items.map(item => {
+                    return [
+                        item.locationName,
+                        item.magnitude,
+                        item.dateTime,
+                        item.coords.lat,
+                        item.coords.long
+                    ];
+                });
+
+                const table1 = $('#earthquakesTable').DataTable({
+                    data: tableData,
+                    columns: [
+                        { title: "Ubicación" },
+                        { title: "Magnitud" },
+                        { title: "Fecha" },
+                        { title: "Latitud" },
+                        { title: "Longitud" }
+                    ],
+                    colReorder: true,
+                    responsive: true
+                });
+
+                const table2 = $('#earthquakesTable2').DataTable({
+                    data: tableData,
+                    columns: [
+                        { title: "Ubicación" },
+                        { title: "Magnitud" },
+                        { title: "Fecha" },
+                        { title: "Latitud" },
+                        { title: "Longitud" }
+                    ],
+                    colReorder: true,
+                    responsive: true
+                });
+            })
+            .catch(error => console.error('Error al cargar los datos del terremoto:', error));
+
+        $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+            $.fn.dataTable.tables({ visible: true, api: true }).columns.adjust();
+        });
+    });
+</script>
+
+</body>
+</html>
